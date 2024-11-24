@@ -1,0 +1,59 @@
+.error-message {
+  color: rgb(144, 60, 60);
+  font-size: .9rem;
+  margin-top: 10px;
+}
+
+#loginCont {
+    place-self: center;
+    margin-top: 15%;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #284284, #bbacdb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+
+  #loginCont h4 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+
+  #loginCont input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  #loginCont .button, #loginCont button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 40px;
+    background-color: #284284; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 12px;
+    transition: background-color 0.3s;
+  }
+  
+  #loginCont .button:hover, #loginCont button:hover {
+    background-color: #3c57a1; 
+  }
+  
+ 

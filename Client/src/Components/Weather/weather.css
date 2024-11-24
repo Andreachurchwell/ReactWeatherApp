@@ -1,0 +1,129 @@
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #bbacdb;
+    display: grid;
+}
+#searchIcon{
+   width: 50px;
+   height: 50px;
+    
+}
+.weather{
+    
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #284284, #bbacdb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+      
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.searchbar input{
+    height: 50px;
+    border: none;
+     outline: none;
+     border-radius: 40px;
+     padding-left: 25px;
+     color: #626262;
+     background: #ebfffc;
+     font-size: 18px;
+}
+.searchbar img{
+    width: 50px;
+    /* padding: 15px; */
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+.weatherIcon{
+    width: 150px;
+    margin: 30px 0;
+
+}
+.temp{
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+.location{
+    color: #fff;
+    font-size: 40px;
+}
+.weatherData{
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.weatherData .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+.hum{
+    width:50px;
+    height: 50px
+}
+.wind{
+    width: 50px;
+    height: 50px;
+
+}
+.weatherData .col span{
+    display: block;
+   
+    gap: 12px;
+    font-size: 16px;
+}
+.weatherData .col img{
+    width: 50px;
+    margin-top: 10px;
+}
+  /* Button styling */
+ .button,  button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 40px;
+    background-color: #284284; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 12px;
+    transition: background-color 0.3s;
+  }
+  
+   .button:hover,  button:hover {
+    background-color: #3c57a1; 
+  }
+  
+  /* Optional: Style for "Or To Register" text and button */
+   button {
+    width: auto;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #284284; 
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+   button:hover {
+    background-color: #3c57a1; 
+    color: white;
+  }
+
+  

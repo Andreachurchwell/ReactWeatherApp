@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import './Registration.css'
 import { useNavigate } from 'react-router-dom'
+import L2 from '../../assets/L2.jpg'
 
 const Registration = () => {
 
@@ -52,6 +53,7 @@ const Registration = () => {
             {/* First Last email username password confirm password   submit button onchange handler for all 7 inputs*/}
 
             <form action="regForm" >
+                <img src={L2} alt=""id='lou' />
                 <h4>Registration Form</h4>
                 <input type="text" name='first' placeholder='first' onChange={(e) => handleReg(e)} />
                 <br /><br />

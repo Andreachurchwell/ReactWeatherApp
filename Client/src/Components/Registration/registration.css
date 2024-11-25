@@ -7,6 +7,11 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+#lou{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+  }
 #m{
     background-color: #e2d4ff;
 }

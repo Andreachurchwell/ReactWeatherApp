@@ -4,7 +4,8 @@ import './login.css'
 import { useData } from '../../hooks/contextHook'
 import Registration from '../Registration/Registration'
 import { useNavigate, useLocation } from 'react-router-dom'
-
+import Louie from '../../assets/catIcon.png'
+import L2 from '../../assets/L2.jpg'
 const Login = () => {
 
   const [login, setLogin] = useState({})
@@ -83,12 +84,14 @@ const Login = () => {
 
   return (
     <div>
-
       <div id='mainLogin'>
         {console.log('login hit', login)}
         <div id='loginCont'>
+          {/* <img src={Louie} alt=""id='lou' /> */}
+          <img src={L2} alt=""id='lou' />
+      <h4>Louie's Forecast</h4>
 
-          <h4>Login</h4>
+          {/* <h4>Login</h4> */}
           <input type="text" placeholder='username' name="username" onChange={(e) => handleChange(e)} />
           <br /><br /> {error && <p className="error-message">{error}</p>}
           <input type="text" placeholder='password' name="password" onChange={(e) => handleChange(e)} />

@@ -16,6 +16,7 @@ import { useNavigate } from 'react-router-dom';
 // import '../../.env'
 import axios from 'axios'
 // import { celToFar } from '../../utils/celToFar'
+import L2 from '../../assets/L2.jpg'
 
 const Weather = () => {
 
@@ -192,7 +193,7 @@ const Weather = () => {
 
                     <input type="text" ref={inputRef} placeholder='Search' value={city} onChange={(e) => handleChange(e)} />
 
-                    <img src={searchIcon} alt="SearchIcon" id='searchIcon' onClick={(e) => handleSubmit(e)} />
+                    <img src={L2} alt="SearchIcon" id='searchIcon' onClick={(e) => handleSubmit(e)} />
 
 
                 </div>
